@@ -22,9 +22,27 @@
 body { margin: 0; color: var(--ink); background: var(--paper) url("pered-vyhodom/assets/paper.webp"); font: 1rem/1.5 var(--sans); }
 .shell { width: min(calc(100% - clamp(2.25rem, 8.4vw, 9rem)), 83rem); margin-inline: auto; }
 .masthead { min-height: 4.25rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--rule); gap: 1rem; }
-.masthead a { display: inline-flex; align-items: center; min-height: 44px; }
+.masthead > a, .easter-egg summary { display: inline-flex; align-items: center; min-height: 44px; }
+.easter-egg { position: relative; }
+.easter-egg summary { cursor: pointer; list-style: none; -webkit-tap-highlight-color: #87372a20; }
+.easter-egg summary::-webkit-details-marker { display: none; }
+.easter-egg figure {
+  position: absolute;
+  z-index: 1;
+  top: calc(100% + .35rem);
+  left: 0;
+  width: min(13.25rem, calc(100vw - 2.25rem));
+  margin: 0;
+  padding: .5rem;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  box-shadow: 0 4px 12px #201b171a;
+}
+.easter-egg figure a { display: block; }
+.easter-egg img { display: block; width: 100%; height: auto; filter: grayscale(1); }
+.easter-egg figcaption { padding: .45rem .1rem .1rem; }
 a { color: inherit; text-underline-offset: .23em; }
-a:focus-visible { outline: 2px solid #87372a; outline-offset: 5px; }
+a:focus-visible, .easter-egg summary:focus-visible { outline: 2px solid #87372a; outline-offset: 5px; }
 main { padding: clamp(2.2rem, 6vw, 5.65rem) 0 4rem; }
 h1, h2, p { margin: 0; }
 h1, h2 { font-family: var(--serif); font-weight: 400; letter-spacing: -.062em; }
