@@ -1,0 +1,22 @@
+Фотографии в проекте «Перед выходом»
+
+Изменения файлов — масштабирование и перекодирование в WebP. Часть превью на странице отображается с кадрированием. Для каждой фотографии и её веб-версий действуют указанные условия.
+
+Sara Cimino — CC BY 2.0
+https://creativecommons.org/licenses/by/2.0/
+francisco-lachowski — https://commons.wikimedia.org/wiki/File:Francisco_Lachowski_2011.jpg
+simon-nessman — https://www.flickr.com/photos/saracimino/5365191386/
+alexander-kjellevik — https://commons.wikimedia.org/wiki/File:Alexander_Kjellevik.jpg
+ermanno-daelli — https://commons.wikimedia.org/wiki/File:Ermanno_Daelli_2011.jpg
+
+Jvpr1 — CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+john-varvatos-runway — https://commons.wikimedia.org/wiki/File:John_Varvatos_Fall_2010_04.JPG
+
+HSMCH — CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+daks-runway — https://commons.wikimedia.org/wiki/File:16SS_DAKS_FASHION_SHOW.JPG
+
+Photo by Stefan Heesch, Nordfriisk Photography — CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+jordan-barrett — https://commons.wikimedia.org/wiki/File:Jordan-barrett-mbfw-march-2022-fashion-week-berlin.jpg

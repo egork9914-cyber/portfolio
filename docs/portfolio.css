@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Prata;
+  src: url("pered-vyhodom/assets/fonts/prata-cyrillic.woff2") format("woff2");
+  font-display: swap;
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+@font-face {
+  font-family: "Golos Text";
+  src: url("pered-vyhodom/assets/fonts/golos-cyrillic.woff2") format("woff2");
+  font-display: swap;
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+:root {
+  color-scheme: light;
+  --ink: #201b17;
+  --paper: #eee9e0;
+  --rule: #b6aca0;
+  --serif: Prata, Georgia, serif;
+  --sans: "Golos Text", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); background: var(--paper) url("pered-vyhodom/assets/paper.webp"); font: 1rem/1.5 var(--sans); }
+.shell { width: min(calc(100% - clamp(2.25rem, 8.4vw, 9rem)), 83rem); margin-inline: auto; }
+.masthead { min-height: 4.25rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--rule); gap: 1rem; }
+.masthead a { display: inline-flex; align-items: center; min-height: 44px; }
+a { color: inherit; text-underline-offset: .23em; }
+a:focus-visible { outline: 2px solid #87372a; outline-offset: 5px; }
+main { padding: clamp(2.2rem, 6vw, 5.65rem) 0 4rem; }
+h1, h2, p { margin: 0; }
+h1, h2 { font-family: var(--serif); font-weight: 400; letter-spacing: -.062em; }
+h1 { font-size: clamp(3.2rem, 9vw, 9rem); line-height: 1.06; margin-bottom: clamp(1.65rem, 4vw, 3.7rem); }
+.work {
+  display: grid;
+  grid-template-columns: minmax(0, 2.1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(1.1rem, 4.5vw, 4.4rem);
+  padding-block: clamp(.8rem, 2vw, 1.5rem);
+  border-block: 1px solid var(--rule);
+  text-decoration: none;
+}
+.work img { width: 100%; height: auto; aspect-ratio: 8 / 5; object-fit: cover; object-position: center 29%; display: block; }
+.work h2 { font-size: clamp(1.95rem, 4.6vw, 4.4rem); line-height: 1.05; text-wrap: balance; }
+.work p { margin-top: .65rem; color: #60564e; }
+.work:hover h2 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .14em; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 680px) {
+  .work { grid-template-columns: minmax(0, 1fr); align-items: start; }
+  .work p { margin-top: .35rem; }
+}
