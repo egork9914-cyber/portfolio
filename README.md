@@ -4,12 +4,10 @@
 
 ## Перед выходом
 
-[![Обложка проекта «Перед выходом»](docs/assets/pered-vyhodom-cover.webp)](https://egork9914-cyber.github.io/portfolio/pered-vyhodom/)
+[![Обложка проекта «Перед выходом»](docs/assets/pered-vyhodom-cover.webp "Фото на обложке — Stefan Heesch, Nordfriisk Photography · CC BY-SA 4.0")](https://egork9914-cyber.github.io/portfolio/pered-vyhodom/)
 
-накидал фотопоказ на ванильном js. джордан на обложке, чико за кулисами. сначала налепил кнопок, потом выпилил лишнее. кадры можно щёлкать по превьюшкам, ещё есть автопоказ.
+хотел просто выложить семь фоток с показов. потом прикрутил ползунок и «ручной режим». глянул ещё раз и понял, что до ежедневной награды за вход осталась одна кнопка. ползунок снёс, награду так и не завёз.
 
-[Открыть фотопоказ](https://egork9914-cyber.github.io/portfolio/pered-vyhodom/) · [Исходники проекта](docs/pered-vyhodom/) · [Фотокредиты](docs/pered-vyhodom/assets/photos/CREDITS.txt)
+джордан на обложке, чико за кулисами. по мелким фоткам внизу можно тыкать. если даже это впадлу, жми плей. пока оно листает само, можно жевать бутер и кивать, будто тебя позвали обсуждать пальто.
 
-Сайт на HTML, CSS и JavaScript. Главная портфолио находится в `docs/index.html`. GitHub Pages публикует папку `docs` из ветки `main`.
-
-Фото на обложке — Stefan Heesch, Nordfriisk Photography. [Оригинал](https://commons.wikimedia.org/wiki/File:Jordan-barrett-mbfw-march-2022-fashion-week-berlin.jpg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+если ткнуть в превью посреди автопоказа, таймер глохнет. вот бы я так же вовремя отъебался от кнопок.
